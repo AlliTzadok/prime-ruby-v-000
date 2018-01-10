@@ -4,7 +4,9 @@ def prime?(num)
   end
 
   for n in 2..(num - 1)
-    return num % n == 0 ? true : false
+    if num % n == 0 ? 
+      return false
+    end
   end
 
   return true

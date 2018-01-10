@@ -3,8 +3,8 @@ def prime?(num)
     return false
   end
 
-  for n in (2..num - 1)
+  for n in 2..(num - 1)
     return num % n == 0 ? true : false
   end
-  
+
 end
